@@ -1,0 +1,59 @@
+h1{
+font-family: "dreaming-outloud-script", sans-serif;
+font-size: 75px;
+font-weight: 400;
+word-spacing: 15px;
+color:rgb(231, 52, 141);
+}
+h2{
+font-family: "dreaming-outloud-sans", sans-serif;
+font-weight: 400;
+font-size: 40px;
+text-indent: 60px;
+}
+h3{
+font-family: "dreaming-outloud-sans", sans-serif;
+font-weight: 400;
+font-size: 50px;
+text-indent: 20px;
+color:rgb(204, 24, 114)
+}
+ol{
+font-family: "transat", sans-serif;
+font-weight: 500;
+padding-left: 90px;
+font-size: 25px;
+} 
+body{
+    margin-left: 1000px;
+    margin-right: 900px;
+    background-color: rgb(254, 210, 217);
+    zoom: 50%;
+}
+img{
+    margin-left: 165px;
+    border-radius: 30px;
+}
+hr{
+    border-color: rgb(231, 52, 141);
+}
+a {
+font-family: "dreaming-outloud-sans", sans-serif;
+font-weight: 400;
+font-size: 35px;
+color:rgb(204, 24, 114);
+margin-left: 235px
+}
+h4{
+font-family: "dreaming-outloud-sans", sans-serif;
+font-weight: 400;
+font-size: 80px;
+text-indent: 320px;
+text-decoration: underline;
+color:rgb(204, 24, 114)
+}
+.examples-heading {
+    margin-left: 125px;
+    font-size: 100px;
+    text-decoration: underline;
+}
