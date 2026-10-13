@@ -1,0 +1,418 @@
+body {
+    background-color: rgb(31, 31, 76)
+
+}
+section {
+    margin: auto;
+}
+.head-boy {
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    border-radius: 400px;
+    border:solid 2px black;
+    position:absolute;
+    z-index: 1;
+    margin-left: 100px;
+}
+.head-girl {
+    width: 330px;
+    height: 300px;
+    background-color: white;
+    border-radius: 250px;
+    border:solid 2px black;
+    position: absolute;
+    z-index: 1;
+    margin-left:490px;
+}
+.neck-boy {
+    width: 0;
+    height: 0;
+    border: solid 2px black;
+    border-top: 20px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 120px solid white;
+    rotate: 80deg;
+    position: absolute;
+    z-index: 0;
+    margin: 300px 210px;
+}
+.neck-girl {
+    width: 0;
+    height: 0;
+    border: solid 2px black;
+    border-top: 50px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 120px solid white;
+    rotate: 100deg;
+    position: absolute;
+    z-index: 0;
+    margin: 290px 600px;
+}
+.earone-boy {
+    width:50px;
+    height:80px;
+    border-radius: 80px;
+    background-color: white;
+    position: absolute;
+    z-index:0;
+    margin: 150px 70px;
+    rotate: -20deg;
+}
+.eartwo-boy {
+    width:50px;
+    height:80px;
+    border-radius: 80px;
+    background-color: white;
+    position: absolute;
+    z-index:0;
+    margin: 140px 430px;
+    rotate: 20deg;
+}
+.ear-girl {
+    width:40px;
+    height:60px;
+    border-radius: 80px;
+    background-color: white;
+    position: absolute;
+    z-index:0;
+    margin: 130px 810px;
+    rotate: 20deg;
+}
+.eyeone-boy {
+    width: 70px;
+    height: 40px;
+    border-radius: 80px 80px 0 0;
+    background-color:transparent;
+    z-index: 2;
+    position: absolute;
+    border:solid 2px black;
+    margin: 130px 160px;
+    rotate: -20deg;
+}
+.eyetwo-boy {
+    width: 70px;
+    height: 40px;
+    border-radius: 80px 80px 0 0;
+    background-color:transparent;
+    z-index: 2;
+    position: absolute;
+    border:solid 2px black;
+    margin: 120px 320px;
+    rotate: 10deg;
+}
+.eyelidone-boy {
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    z-index: 2;
+    position: absolute;
+    margin: 152px 145px;
+    rotate: -20deg;
+}
+.eyelidtwo-boy {
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    z-index: 2;
+    position: absolute;
+    margin: 145px 305px;
+    rotate: 10deg;
+}
+.pupilone-boy {
+    width: 35px;
+    height: 18px;
+    border-radius: 50px 50px 0 0;
+    border: solid 2px black;
+    background-color: rgb(111, 201, 94);
+    z-index: 2;
+    position: absolute;
+    margin: 152px 180px;
+    rotate: -200deg;
+}
+.pupiltwo-boy {
+    width: 35px;
+    height: 15px;
+    border-radius: 50px 50px 0 0;
+    border: solid 2px black;
+    background-color: rgb(111, 201, 94);
+    z-index: 2;
+    position: absolute;
+    margin: 145px 335px;
+    rotate: 191deg;
+}
+.irisone-boy {
+    width: 24px;
+    height: 12px;
+    border-radius: 50px 50px 0 0;
+    background-color: black;
+    z-index: 3;
+    position: absolute;
+    margin: 152px 192px;
+    rotate: -200deg;
+}
+.iristwo-boy {
+    width: 20px;
+    height: 12px;
+    border-radius: 50px 50px 0 0;
+    background-color: black;
+    z-index: 3;
+    position: absolute;
+    margin: 146px 345px;
+    rotate: 190deg;
+}
+.nose {
+    width: 82px;
+    height: 81px;
+    border-radius: 50px;
+    background-color: rgb(233, 125, 155);
+    z-index: 2;
+    position: absolute;
+    margin: 150px 241px;
+}
+.mouth-boy {
+    width: 130px;
+    height: 70px;
+    border: solid 5px black;
+    border-color: black transparent transparent transparent;
+    border-radius: 100px 170px 0px 0px;
+    z-index: 2;
+    position: absolute;
+    margin: 231px 223px;
+}
+.hairone-boy{
+    width: 270px;
+    height: 100px;
+    border-radius: 80px 80px 0 0;
+    background-color:black;
+    z-index: 4;
+    position: absolute;
+    border:solid 2px black;
+    margin: 1px 70px;
+    rotate: -20deg;
+}
+.hairtwo-boy {
+    width: 270px;
+    height: 100px;
+    border-radius: 80px 80px 0 0;
+    background-color:black;
+    z-index: 4;
+    position: absolute;
+    border:solid 2px black;
+    margin: 1px 210px;
+    rotate: 20deg;
+}
+.eyeone-girl {
+    width: 70px;
+    height: 35px;
+    border-radius: 80px 80px 0 0;
+    background-color:white;
+    z-index: 3;
+    position: absolute;
+    border:solid 4px black;
+    margin: 130px 540px;
+    rotate: 10deg;
+}
+.eyetwo-girl {
+    width: 70px;
+    height: 35px;
+    border-radius: 80px 80px 0 0;
+    background-color:white;
+    z-index: 3;
+    position: absolute;
+    border:solid 4px black;
+    margin: 130px 690px;
+    rotate: -10deg;
+}
+.eyelashone {
+    width: 0;
+    height: 0;
+    border: solid 0px black;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 50px solid black;
+    rotate: 10deg;
+    position: absolute;
+    z-index: 3;
+    margin: 152px 490px;
+}
+.eyelashtwo {
+    width: 0;
+    height: 0;
+    border: solid 0px black;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 50px solid black;
+    rotate: -200deg;
+    position: absolute;
+    z-index: 3;
+    margin: 147px 768px;
+}
+.pupilone-girl {
+    width: 30px;
+    height: 34px;
+    border-radius: 50%;
+    border: solid 4px black;
+    background-color: rgb(111, 201, 94);
+    margin: 131px 557px;
+    z-index: 3;
+    position: absolute;
+}
+.pupiltwo-girl {
+    width: 30px;
+    height: 34px;
+    border-radius: 50%;
+    border: solid 4px black;
+    background-color: rgb(111, 201, 94);
+    margin: 131px 707px;
+    z-index: 3;
+    position: absolute;
+}
+.irisone-girl {
+    width: 10px;
+    height: 14px;
+    border-radius: 50%;
+    border: solid 4px black;
+    background-color: black;
+    margin: 141px 567px;
+    z-index: 3;
+    position: absolute;
+}
+.iristwo-girl {
+    width: 10px;
+    height: 14px;
+    border-radius: 50%;
+    border: solid 4px black;
+    background-color: black;
+    margin: 141px 717px;
+    z-index: 3;
+    position: absolute;
+}
+.cheekone {
+    width: 82px;
+    height: 81px;
+    border-radius: 50px;
+    background-color: rgb(233, 125, 155);
+    z-index: 2;
+    position: absolute;
+    margin: 165px 525px;
+}
+.cheektwo {
+    width: 82px;
+    height: 81px;
+    border-radius: 50px;
+    background-color: rgb(233, 125, 155);
+    z-index: 2;
+    position: absolute;
+    margin: 165px 710px;
+}
+.mole {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    margin: 174px 765px;
+}
+.smile {
+    width: 140px;
+    height: 70px;
+    border: solid 4px black;
+    border-color: black transparent transparent transparent;
+    border-radius: 65px 65px 0px 0px;
+    z-index: 2;
+    position: absolute;
+    margin: 170px 583px;
+    rotate: 180deg;
+}
+.toplipone {
+    width: 70px;
+    height: 70px;
+    border: solid 4px black;
+    border-color: black transparent transparent transparent;
+    border-radius: 80px 30px 0px 0px;
+    z-index: 3;
+    position: absolute;
+    margin: 215px 583px;
+    rotate: 10deg;
+}
+.topliptwo {
+     width: 70px;
+    height: 70px;
+    border: solid 3px black;
+    border-color: black transparent transparent transparent;
+    border-radius: 30px 80px 0px 0px;
+    z-index: 2;
+    position: absolute;
+    margin: 215px 655px;
+    rotate: -10deg;
+}
+.bottomlip {
+    width: 150px;
+    height: 250px;
+    border: solid 3px black;
+    border-color: black transparent transparent transparent;
+    border-radius: 100%;
+    z-index: 2;
+    position: absolute;
+    margin: 8px 579px;
+    rotate: 180deg;
+}
+.bangsone {
+    width: 270px;
+    height: 100px;
+    border-radius: 80px 80px 0 0;
+    background-color:black;
+    z-index: 4;
+    position: absolute;
+    border:solid 2px black;
+    margin: 1px 450px;
+    rotate: -20deg;
+}
+.bangstwo {
+    width: 270px;
+    height: 100px;
+    border-radius: 80px 80px 0 0;
+    background-color:black;
+    z-index: 4;
+    position: absolute;
+    border:solid 2px black;
+    margin: 1px 590px;
+    rotate: 20deg;
+}
+.hairone-girl {
+    width: 0;
+    height: 0;
+    border: solid 0px black;
+    border-top: 100px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 120px solid black;
+    rotate: 330deg;
+    position: absolute;
+    z-index: 0;
+    margin: 180px 440px;
+}
+.hairtwo-girl {
+    width: 0;
+    height: 0;
+    border: solid 0px black;
+    border-top: 100px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-right: 150px solid black;
+    rotate: 290deg;
+    position: absolute;
+    z-index: 0;
+    margin: 180px 680px;
+}
+p {
+    position: absolute;
+    margin: 500px 520px;
+    color: white;
+    font-family: "harman-sans";
+    font-weight: 400;
+    font-style: normal;
+    z-index: 5;
+    font-size: 100px;
+    line-height: 110px;
+}
