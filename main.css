@@ -144,6 +144,11 @@ body {
     transition: transform 0.5s ease;
     scale: 1.2;
 }
+#L:active {
+    color: #fb80ca;
+    transition: transform 0.5s ease;
+    scale: 1.2;
+}
 
 #I {
     font-family: "borel", sans-serif;
@@ -155,6 +160,11 @@ body {
     z-index: 2;
 }
 #I:hover {
+    color: #fb80ca;
+    transition: transform 0.5s ease;
+    scale: 1.2;
+}
+#I:active {
     color: #fb80ca;
     transition: transform 0.5s ease;
     scale: 1.2;
@@ -175,6 +185,11 @@ body {
     transition: transform 0.5s ease;
     scale: 1.2;
 }
+#N-1:active {
+    color: #fb80ca;
+    transition: transform 0.5s ease;
+    scale: 1.2;
+}
 
 #D{
     font-family: "faculty-glyphic", sans-serif;
@@ -190,6 +205,11 @@ body {
     transition: transform 0.5s ease;
     scale: 1.2;
 }
+#D:active {
+    color: #fb80ca;
+    transition: transform 0.5s ease;
+    scale: 1.2;
+}
 
 #A-1{
     font-family: "bruno-ace", sans-serif;
@@ -201,6 +221,11 @@ body {
     z-index: 2;
 }
 #A-1:hover {
+    color: #fb80ca;
+    transition: transform 0.5s ease;
+    scale: 1.2;
+}
+#A-1:active {
     color: #fb80ca;
     transition: transform 0.5s ease;
     scale: 1.2;
@@ -221,6 +246,11 @@ body {
     transition: transform 0.5s ease;
     scale: 1.2;
 }
+#C:active {
+    color: #fb80ca;
+    transition: transform 0.5s ease;
+    scale: 1.2;
+}
 
 #H{
   font-family: "Glass Antiqua", cursive;
@@ -233,6 +263,11 @@ body {
   z-index: 2;
 }
 #H:hover {
+    color: #fb80ca;
+    transition: transform 0.5s ease;
+    scale: 1.2;
+}
+#H:active {
     color: #fb80ca;
     transition: transform 0.5s ease;
     scale: 1.2;
@@ -253,6 +288,11 @@ body {
     transition: transform 0.5s ease;
     scale: 1.2;
 }
+#A-2:active {
+    color: #fb80ca;
+    transition: transform 0.5s ease;
+    scale: 1.2;
+}
 
 #N-2{
   font-family: "Exile", system-ui;
@@ -269,6 +309,11 @@ body {
     transition: transform 0.5s ease;
     scale: 1.2;
 }
+#N-2:active {
+    color: #fb80ca;
+    transition: transform 0.5s ease;
+    scale: 1.2;
+}
 
 #big-star{
     position: absolute;
@@ -279,10 +324,14 @@ body {
 }
 #big-star:hover {
     color: #26e2f3;
-    transition: transform 0.5s ease, color 0.1s ease;
     cursor: default;
     scale: 1.5;
-     transform: scale(1.3) rotate(15deg);
+    transform: scale(1.3) rotate(15deg);
+}
+#big-star:active {
+    color: #26e2f3;
+    cursor: default;
+    transform: scale(1.3) rotate(15deg);
 }
 
 .star-background {
